@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ArpyEscrow — New York Real Estate Transactions. Done Right, Done Fast.</title>
+  <meta name="description" content="ArpyEscrow is the attorney-built platform reimagining how New York real estate transactions are managed. Contracts, e-signatures, deadlines, and deal communication — all in one secure workspace.">
+  <meta name="keywords" content="New York real estate, escrow platform, real estate transaction management, attorney-built, contract management, e-signatures, NY closing, real estate technology, ArpyEscrow">
+  <meta name="author" content="ArpyEscrow">
+  <link rel="canonical" href="https://arpyescrow.com/">
+
+  <meta property="og:title" content="ArpyEscrow — NY Real Estate Transactions. Done Right, Done Fast.">
+  <meta property="og:description" content="The attorney-built platform reimagining how New York real estate transactions are managed — from contract to closing.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://arpyescrow.com/">
+  <meta property="og:site_name" content="ArpyEscrow">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ArpyEscrow — NY Real Estate Transactions. Done Right, Done Fast.">
+  <meta name="twitter:description" content="The attorney-built platform reimagining how New York real estate transactions are managed.">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "ArpyEscrow",
+    "url": "https://arpyescrow.com",
+    "description": "New York real estate transaction platform built by attorneys.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://arpyescrow.com/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "ArpyEscrow",
+    "url": "https://arpyescrow.com",
+    "email": "b@arpyflow.com",
+    "description": "A New York real estate transaction platform built by attorneys.",
+    "areaServed": { "@type": "State", "name": "New York" },
+    "sameAs": [
+      "https://www.linkedin.com/in/brian-b-7ab125315/",
+      "https://www.instagram.com/ArpyEscrow/"
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --navy: #0B1D3A;
+      --gold: #C8963E;
+      --gold-light: #E8C980;
+      --cloud: #F4F6F9;
+      --white: #FFFFFF;
+      --text: #1E2A3A;
+      --text-secondary: #5A6978;
+      --border: #D8DEE6;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif; color: var(--text); background: var(--white); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+
+    .nav { position: sticky; top: 0; z-index: 100; background: var(--navy); border-bottom: 2px solid var(--gold); }
+    .nav-inner { max-width: 1100px; margin: 0 auto; padding: 0 24px; display: flex; align-items: center; justify-content: space-between; height: 64px; }
+    .nav-logo { font-family: 'Playfair Display', serif; font-weight: 800; font-size: 1.4rem; color: var(--white); text-decoration: none; letter-spacing: -0.02em; }
+    .nav-logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 32px; list-style: none; align-items: center; }
+    .nav-links a { color: rgba(255,255,255,0.8); text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold-light); }
+    .nav-links .cta-btn { background: var(--gold); color: var(--navy); padding: 8px 20px; border-radius: 6px; font-weight: 600; transition: background 0.2s; }
+    .nav-links .cta-btn:hover { background: var(--gold-light); color: var(--navy); }
+    .nav-toggle { display: none; background: none; border: none; cursor: pointer; padding: 8px; }
+    .nav-toggle span { display: block; width: 24px; height: 2px; background: var(--white); margin: 5px 0; }
+    @media (max-width: 700px) {
+      .nav-toggle { display: block; }
+      .nav-links { display: none; position: absolute; top: 64px; left: 0; right: 0; background: var(--navy); flex-direction: column; padding: 16px 24px 24px; gap: 16px; border-bottom: 2px solid var(--gold); }
+      .nav-links.open { display: flex; }
+    }
+
+    /* ── Hero ── */
+    .hero {
+      background: linear-gradient(135deg, var(--navy) 0%, #142d52 60%, #1a3566 100%);
+      padding: 100px 24px 96px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      right: -20%;
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(200,150,62,0.06) 0%, transparent 70%);
+      border-radius: 50%;
+    }
+    .hero-eyebrow { font-size: 0.8rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold); margin-bottom: 20px; position: relative; }
+    .hero h1 { font-family: 'Playfair Display', serif; font-weight: 800; font-size: clamp(2.4rem, 6vw, 3.6rem); color: var(--white); line-height: 1.15; max-width: 800px; margin: 0 auto 24px; position: relative; }
+    .hero h1 em { font-style: normal; color: var(--gold); }
+    .hero-sub { font-size: 1.15rem; color: rgba(255,255,255,0.7); max-width: 580px; margin: 0 auto 40px; line-height: 1.6; position: relative; }
+    .hero-actions { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; position: relative; }
+    .btn-primary { display: inline-block; background: var(--gold); color: var(--navy); padding: 16px 40px; border-radius: 6px; font-weight: 700; text-decoration: none; font-size: 1.05rem; transition: background 0.2s; }
+    .btn-primary:hover { background: var(--gold-light); }
+    .btn-secondary { display: inline-block; background: transparent; color: var(--white); padding: 16px 40px; border-radius: 6px; font-weight: 600; text-decoration: none; font-size: 1.05rem; border: 1px solid rgba(255,255,255,0.25); transition: border-color 0.2s, color 0.2s; }
+    .btn-secondary:hover { border-color: var(--gold-light); color: var(--gold-light); }
+
+    /* ── Value Props ── */
+    .value-section { padding: 72px 24px; max-width: 1000px; margin: 0 auto; }
+    .value-section h2 { font-family: 'Playfair Display', serif; font-weight: 700; font-size: 1.8rem; color: var(--navy); text-align: center; margin-bottom: 12px; }
+    .value-sub { text-align: center; color: var(--text-secondary); font-size: 1.05rem; max-width: 560px; margin: 0 auto 48px; }
+    .value-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
+    .value-card { background: var(--white); border: 1px solid var(--border); border-radius: 10px; padding: 32px 28px; border-top: 3px solid var(--gold); transition: box-shadow 0.2s; }
+    .value-card:hover { box-shadow: 0 8px 24px rgba(11,29,58,0.08); }
+    .value-icon { width: 48px; height: 48px; background: var(--cloud); border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 16px; }
+    .value-icon svg { width: 24px; height: 24px; stroke: var(--gold); fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+    .value-card h3 { font-size: 1.1rem; font-weight: 700; color: var(--navy); margin-bottom: 8px; }
+    .value-card p { font-size: 0.95rem; color: var(--text-secondary); line-height: 1.7; }
+
+    /* ── How It Works ── */
+    .how-section { background: var(--cloud); padding: 72px 24px; }
+    .how-inner { max-width: 760px; margin: 0 auto; }
+    .how-inner h2 { font-family: 'Playfair Display', serif; font-weight: 700; font-size: 1.8rem; color: var(--navy); text-align: center; margin-bottom: 48px; }
+    .how-step { display: flex; gap: 24px; margin-bottom: 32px; align-items: flex-start; }
+    .how-num { flex-shrink: 0; width: 48px; height: 48px; background: var(--navy); color: var(--gold); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1.1rem; font-family: 'Playfair Display', serif; }
+    .how-text h3 { font-size: 1.1rem; font-weight: 700; color: var(--navy); margin-bottom: 4px; }
+    .how-text p { font-size: 0.98rem; color: var(--text-secondary); line-height: 1.7; }
+
+    /* ── Resources ── */
+    .resources { padding: 72px 24px; max-width: 1000px; margin: 0 auto; }
+    .resources h2 { font-family: 'Playfair Display', serif; font-weight: 700; font-size: 1.8rem; color: var(--navy); text-align: center; margin-bottom: 12px; }
+    .resources-sub { text-align: center; color: var(--text-secondary); font-size: 1.05rem; max-width: 500px; margin: 0 auto 40px; }
+    .resources-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+    .resource-card { background: var(--white); border: 1px solid var(--border); border-radius: 10px; padding: 28px 24px; text-decoration: none; transition: border-color 0.2s, box-shadow 0.2s; }
+    .resource-card:hover { border-color: var(--gold); box-shadow: 0 4px 16px rgba(11,29,58,0.06); }
+    .resource-card .label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--gold); margin-bottom: 8px; }
+    .resource-card h3 { font-size: 1.05rem; font-weight: 700; color: var(--navy); margin-bottom: 8px; line-height: 1.3; }
+    .resource-card p { font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6; }
+
+    /* ── CTA ── */
+    .cta-band { background: var(--navy); padding: 72px 24px; text-align: center; }
+    .cta-band h2 { font-family: 'Playfair Display', serif; font-size: 1.8rem; color: var(--white); margin-bottom: 12px; }
+    .cta-band p { color: rgba(255,255,255,0.65); margin-bottom: 28px; font-size: 1.05rem; max-width: 500px; margin-left: auto; margin-right: auto; margin-bottom: 28px; }
+    .cta-band a { display: inline-block; background: var(--gold); color: var(--navy); padding: 16px 44px; border-radius: 6px; font-weight: 700; text-decoration: none; font-size: 1.05rem; transition: background 0.2s; }
+    .cta-band a:hover { background: var(--gold-light); }
+
+    /* ── Footer ── */
+    .footer { background: #091526; padding: 40px 24px; text-align: center; }
+    .footer-links { display: flex; justify-content: center; gap: 28px; list-style: none; margin-bottom: 20px; flex-wrap: wrap; }
+    .footer-links a { color: rgba(255,255,255,0.6); text-decoration: none; font-size: 0.9rem; transition: color 0.2s; }
+    .footer-links a:hover { color: var(--gold-light); }
+    .footer-copy { font-size: 0.8rem; color: rgba(255,255,255,0.35); }
+  </style>
+</head>
+<body>
+
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="https://arpyescrow.com" class="nav-logo">Arpy<span>Escrow</span></a>
+      <button class="nav-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="https://arpyescrow.com/about">About</a></li>
+        <li><a href="https://arpyescrow.com/contact">Contact</a></li>
+        <li><a href="https://arpyescrow.com/ny-attorney-review-period">Resources</a></li>
+        <li><a href="https://app.arpyescrow.com" class="cta-btn">Open App</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <p class="hero-eyebrow">Built by Attorneys, for Attorneys</p>
+    <h1>New York Real Estate Transactions. <em>Done Right, Done Fast.</em></h1>
+    <p class="hero-sub">One secure workspace for contracts, e-signatures, deadlines, and deal communication — from accepted offer to closing table.</p>
+    <div class="hero-actions">
+      <a href="https://app.arpyescrow.com" class="btn-primary">Get Started — Free</a>
+      <a href="https://arpyescrow.com/about" class="btn-secondary">Learn More</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="value-section">
+      <h2>Why ArpyEscrow</h2>
+      <p class="value-sub">Every feature is built for the way New York deals actually close.</p>
+      <div class="value-grid">
+        <div class="value-card">
+          <div class="value-icon">
+            <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          </div>
+          <h3>Contract Management</h3>
+          <p>Upload, redline, and negotiate contracts between attorneys with full version tracking. Every draft is timestamped and auditable.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>Integrated E-Signatures</h3>
+          <p>Buyers sign directly on the platform — legally binding, timestamped, and audit-trailed. No printing, scanning, or mailing.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-icon">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <h3>Automated Deadlines</h3>
+          <p>The 45-day mortgage commitment clock starts automatically when the contract is executed. Reminders go to every party — no manual tracking.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-icon">
+            <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Role-Based Access</h3>
+          <p>Each party — buyer, seller, attorney, lender, title — sees only what they should. Structured permissions designed by attorneys who understand confidentiality.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-icon">
+            <svg viewBox="0 0 24 24"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/><line x1="4" y1="4" x2="9" y2="9"/></svg>
+          </div>
+          <h3>Party Management</h3>
+          <p>Replace an attorney mid-deal, add a lender, swap a title company — ArpyEscrow handles transitions cleanly with preserved history and automatic notifications.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-icon">
+            <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+          </div>
+          <h3>Built for New York</h3>
+          <p>Attorney-driven contract process, delivery requirement doctrine, rider-based negotiation — not a generic platform adapted from another state.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="how-section">
+      <div class="how-inner">
+        <h2>How It Works</h2>
+        <div class="how-step">
+          <div class="how-num">1</div>
+          <div class="how-text">
+            <h3>Create a Deal</h3>
+            <p>The seller's attorney creates a new deal on the platform and invites the purchaser's attorney. Both sides are in the same workspace from day one.</p>
+          </div>
+        </div>
+        <div class="how-step">
+          <div class="how-num">2</div>
+          <div class="how-text">
+            <h3>Negotiate the Contract</h3>
+            <p>Upload the initial contract, exchange redlines and riders, and negotiate terms — all tracked with timestamps and version history.</p>
+          </div>
+        </div>
+        <div class="how-step">
+          <div class="how-num">3</div>
+          <div class="how-text">
+            <h3>Execute and Track</h3>
+            <p>The buyer signs via integrated e-signatures. The moment the contract is fully executed, ArpyEscrow starts the mortgage commitment clock and keeps every party on track through closing.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="resources">
+      <h2>NY Real Estate Resources</h2>
+      <p class="resources-sub">Guides for buyers, sellers, and attorneys navigating New York closings.</p>
+      <div class="resources-grid">
+        <a href="https://arpyescrow.com/ny-attorney-review-period" class="resource-card">
+          <p class="label">Contract Law</p>
+          <h3>The Attorney Review Period in New York</h3>
+          <p>NY has no 3-day review window like NJ — but attorneys still control everything. Here is exactly how it works.</p>
+        </a>
+        <a href="https://arpyescrow.com/ny-real-estate-deal-room" class="resource-card">
+          <p class="label">Technology</p>
+          <h3>What Is a Real Estate Deal Room?</h3>
+          <p>How a digital deal room replaces email chains, phone tag, and paper trails with one secure workspace.</p>
+        </a>
+        <a href="https://arpyescrow.com/45-day-mortgage-commitment" class="resource-card">
+          <p class="label">Mortgage</p>
+          <h3>The 45-Day Mortgage Commitment Deadline</h3>
+          <p>The most dangerous date in a NY real estate deal. Miss it and you could lose your entire deposit.</p>
+        </a>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <h2>Ready to Close Deals Faster?</h2>
+      <p>Join the New York attorneys and real estate professionals already using ArpyEscrow.</p>
+      <a href="https://app.arpyescrow.com">Get Started — Free</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <ul class="footer-links">
+      <li><a href="https://arpyescrow.com/about">About</a></li>
+      <li><a href="https://arpyescrow.com/contact">Contact</a></li>
+      <li><a href="https://arpyescrow.com/ny-attorney-review-period">Attorney Review</a></li>
+      <li><a href="https://arpyescrow.com/ny-real-estate-deal-room">Deal Room</a></li>
+      <li><a href="https://arpyescrow.com/45-day-mortgage-commitment">Mortgage Commitment</a></li>
+      <li><a href="https://app.arpyescrow.com">Open App</a></li>
+      <li><a href="https://www.linkedin.com/in/brian-b-7ab125315/" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="https://www.instagram.com/ArpyEscrow/" target="_blank" rel="noopener">Instagram</a></li>
+    </ul>
+    <p class="footer-copy">&copy; 2026 ArpyEscrow. All rights reserved. Built by attorneys, for attorneys.</p>
+  </footer>
+
+</body>
+</html>
